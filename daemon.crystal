@@ -1,0 +1,6 @@
+def setup(controlSocketPath : String)
+
+	# Create the UNIX domain socket for controlling the daemon
+	controlSocket = Socket.new()
+
+end
